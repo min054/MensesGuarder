@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<string name="app_name">MensesGuarder</string>
+    
+    <string name="action_settings">Settings</string>
+
+    <string name="about">About</string>
+    
+    <string name="exit">Exit</string>
+
+    <string name="lastMsTime">Last ms time : </string>
+    
+	<string name="nextMsTime">Next ms time : </string>
+	
+	<string name="msPeriod">Period : </string>
+	
+	<string name="aboutThis">It is developed by smilevchy. \n\nIf you have any problem, please send email to smilevchy@gmail.com.</string>
+	
+	<string name="periodEditHint">Please input yout period of menses</string>
+	
+	<string name="daysToStartAlarm">How many days before you want to be alarmed</string>
+	
+	<string name="timeOfAlarm">What is the time you want to be alarmed</string>
+	
+	<string name="inputError">the value you input is error</string>
+	
+	<string name="confirm">confirm</string>
+	
+	<string name="cancel">cancel</string>
+	
+	<string name="startAlarm">Start Alarm !</string>
+
+	<string name="stopAlarm">It is alarming. Stop ?</string>
+	
+	<string name="inputWarningOfNum">You should input a number</string>
+	
+	<string name="mensesIsComing">Menses is coming soon</string>
+	
+	<string name="goToSetting">Go To Settings</string> 
+</resources>

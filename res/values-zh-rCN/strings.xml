@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">例假提醒</string>
+    
+    <string name="action_settings">设置</string>
+    
+    <string name="about">关于</string>
+    
+    <string name="exit">退出</string>
+    
+    <string name="lastMsTime">上次例假时间：</string>
+    
+	<string name="nextMsTime">下次例假时间：</string>
+	
+	<string name="msPeriod">例假周期：</string>
+	
+	<string name="aboutThis">由 smilevchy 开发. \n\n如果你对本软件有疑问，请发邮件到 smilevchy@gmail.com</string>
+	
+	<string name="periodEditHint">请输入你的例假周期：</string>
+	
+	<string name="daysToStartAlarm">例假来临前多少天开始提醒</string>
+	
+	<string name="timeOfAlarm">提醒时间</string>
+	
+	<string name="inputError">输错值啦</string>
+	
+	<string name="confirm">确认</string>
+	
+	<string name="cancel">取消</string>
+	
+	<string name="startAlarm">开始提醒</string>
+
+	<string name="stopAlarm">提醒中。想要取消？</string>
+	
+	<string name="inputWarningOfNum">这里需要输入数字</string>
+	
+	<string name="mensesIsComing">例假即将来临</string>
+	
+	<string name="goToSetting">开始设置</string> 
+</resources>

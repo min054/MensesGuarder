@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="10dp" >
+
+        <TextView
+            style="@style/TextParent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/lastMsTime" />
+
+        <DatePicker
+            android:id="@+id/lastMsTimeDP"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp" />
+
+        <TextView
+            style="@style/TextParent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/msPeriod" />
+
+        <EditText
+            android:id="@+id/periodEdit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:hint="@string/periodEditHint"
+            android:inputType="number" />
+
+        <TextView
+            style="@style/TextParent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/daysToStartAlarm" />
+
+        <EditText
+            android:id="@+id/daysToStartAlarmEdit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:inputType="number" />
+
+        <TextView
+            style="@style/TextParent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/timeOfAlarm" />
+
+        <TimePicker
+            android:id="@+id/alarmTimeTP"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/confirm"
+                android:layout_width="0dp"
+                android:layout_weight="1.0"
+                android:layout_height="wrap_content"
+                android:text="@string/confirm" />
+
+            <Button
+                android:id="@+id/cancel"
+                android:layout_width="0dp"
+                android:layout_weight="1.0"
+                android:layout_height="wrap_content"
+                android:text="@string/cancel" />
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>

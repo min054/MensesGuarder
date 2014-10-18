@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:padding="10dp"
+    >
+
+    <TextView 
+        android:id="@+id/text1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/lastMsTime"
+        style="@style/TextParent"
+        />
+    <TextView 
+        android:id="@+id/lastMsTimeTV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/text1"
+        style="@style/TextParent"
+        android:layout_marginBottom="10dp"
+        android:textColor="@android:color/darker_gray"
+        />
+    
+    <TextView 
+        android:id="@+id/text3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/lastMsTimeTV"
+        android:text="@string/msPeriod"
+        style="@style/TextParent"
+        />
+    <TextView 
+        android:id="@+id/msPeriodTV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/text3"
+        style="@style/TextParent"
+        android:layout_marginBottom="10dp"
+        android:textColor="@android:color/darker_gray"
+        />
+    
+    <TextView 
+        android:id="@+id/text2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/msPeriodTV"
+        android:text="@string/nextMsTime"
+        style="@style/TextParent"
+        />
+    <TextView 
+        android:id="@+id/nextMsTimeTV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/text2"
+        style="@style/TextParent"
+        android:textColor="@android:color/darker_gray"
+        />
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:gravity="center_horizontal"
+        >
+
+        <Button
+            android:id="@+id/alarmBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/startAlarm" 
+            android:layout_gravity="center"
+            />
+    </LinearLayout>
+   
+</RelativeLayout>
