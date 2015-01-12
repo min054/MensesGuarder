@@ -4,3 +4,5 @@
 *.properties
 bin
 gen
+proguard
+
